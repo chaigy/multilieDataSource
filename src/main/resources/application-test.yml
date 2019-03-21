@@ -1,0 +1,12 @@
+name: test
+
+com:
+ emotte:
+  cgy:
+   username: root
+   password: 123456
+   jdbcUrl: jdbc:mysql://127.0.0.1:3306/cgy?Unicode=true&characterEncoding=UTF-8&serverTimezone=UTC  
+  cgy1:
+   username: root
+   password: 123456
+   jdbcUrl: jdbc:mysql://127.0.0.1:3306/cgy1?Unicode=true&characterEncoding=UTF-8&serverTimezone=UTC  

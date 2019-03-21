@@ -1,0 +1,25 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  profiles:
+    active:
+    - test
+  boot:
+    admin:
+      client:
+        url:
+        - http://127.0.0.1:8088
+        - http://127.0.0.1:8089
+  application:
+    name: 测试代码01
+server:
+  port: 8081
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "*"
+       
